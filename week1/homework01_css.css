@@ -1,0 +1,50 @@
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.main_cont {
+    width: 900px;
+    height: 100%;
+
+    margin: 50px auto;
+    position: center;
+}
+
+.pro_img {
+    margin-bottom: 50px;
+    width: 900px;
+    object-fit: contain;
+
+}
+
+.pro_M {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-end;
+
+}
+.pro_name{
+    margin-right: 20px;
+}
+.lead2{
+    color: dimgray;
+}
+.pro_Order {
+    margin-top: 25px;
+}
+.form-group{
+    margin-top: 15px;
+}
+.btn{
+    margin-top: 25px;
+    margin-bottom: 80px;
+    background-color: goldenrod;
+    border-color: goldenrod;
+}
